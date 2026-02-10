@@ -6,7 +6,7 @@ document.getElementById('trackingForm').addEventListener('submit', function(e) {
 });
 
 async function queryTracking(carrier, number) {
-    const apiKey = 'YOUR_API_KEY'; // 替換為你的API金鑰
+    const apiKey = 'sk-P3c70koS4LK2cOv6puPtbg'; // 替換為你的API金鑰
     const url = `https://api.trackingmore.com/v2/trackings/get?carrier_code=${carrier}&tracking_number=${number}`; // TrackingMore API範例，檢查官方文件
 
     try {
